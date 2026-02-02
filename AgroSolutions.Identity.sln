@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{20A1F017-81B1-4810-AE78-6F91B9D09BB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgroSolutions.Identity.Api", "src\AgroSolutions.Identity.Api\AgroSolutions.Identity.Api.csproj", "{EB5ACD0A-5150-4921-A7D3-5239D52D18C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{83193363-4882-43DA-A721-57F75B10B9A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgroSolutions.Identity.Tests", "tests\AgroSolutions.Identity.Tests\AgroSolutions.Identity.Tests.csproj", "{1977C9C2-7690-400E-A633-8D1BBA358937}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB5ACD0A-5150-4921-A7D3-5239D52D18C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5ACD0A-5150-4921-A7D3-5239D52D18C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5ACD0A-5150-4921-A7D3-5239D52D18C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5ACD0A-5150-4921-A7D3-5239D52D18C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1977C9C2-7690-400E-A633-8D1BBA358937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1977C9C2-7690-400E-A633-8D1BBA358937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1977C9C2-7690-400E-A633-8D1BBA358937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1977C9C2-7690-400E-A633-8D1BBA358937}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB5ACD0A-5150-4921-A7D3-5239D52D18C9} = {20A1F017-81B1-4810-AE78-6F91B9D09BB7}
+		{1977C9C2-7690-400E-A633-8D1BBA358937} = {83193363-4882-43DA-A721-57F75B10B9A5}
+	EndGlobalSection
+EndGlobal
