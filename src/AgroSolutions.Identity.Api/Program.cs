@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using Prometheus;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -61,5 +62,9 @@ app.MapControllers();
 app.MapGet("/health", () => "Identity Service OK")
    .WithName("HealthCheck")
    .WithOpenApi();
+
+app.UseRouting();
+app.UseHttpMetrics();
+app.MapMetrics();
 
 app.Run();
